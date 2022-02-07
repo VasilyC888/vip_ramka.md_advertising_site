@@ -100,9 +100,21 @@ body, html {
 	top: 75px;
 }
 
+
 .showcase__social_item {
     margin: 0 .50rem;
-	z-index: 2;
+	z-index: 4;
+}
+
+.social__link {
+    margin-right: 10px;
+    text-decoration: none;
+
+}
+
+.social__link :hover {
+	transform: translateY(-5px);
+	transition: transform .2s linear;
 }
 
 .showcase__content-wrapper {
